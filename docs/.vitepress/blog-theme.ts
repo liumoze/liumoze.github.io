@@ -48,20 +48,20 @@ const blogTheme = getThemeConfig({
 
   // 友链
   friend: [
-    {
-      nickname: '粥里有勺糖',
-      des: '你的指尖用于改变世界的力量',
-      avatar:
-        'https://img.cdn.sugarat.top/mdImg/MTY3NDk5NTE2NzAzMA==674995167030',
-      url: 'https://sugarat.top',
-    },
-    {
-      nickname: 'Vitepress',
-      des: 'Vite & Vue Powered Static Site Generator',
-      avatar:
-        'https://vitepress.dev/vitepress-logo-large.webp',
-      url: 'https://vitepress.dev/',
-    },
+    // {
+    //   nickname: '粥里有勺糖',
+    //   des: '你的指尖用于改变世界的力量',
+    //   avatar:
+    //     'https://img.cdn.sugarat.top/mdImg/MTY3NDk5NTE2NzAzMA==674995167030',
+    //   url: 'https://sugarat.top',
+    // },
+    // {
+    //   nickname: 'Vitepress',
+    //   des: 'Vite & Vue Powered Static Site Generator',
+    //   avatar:
+    //     'https://vitepress.dev/vitepress-logo-large.webp',
+    //   url: 'https://vitepress.dev/',
+    // },
   ],
 
   // 公告
@@ -82,19 +82,19 @@ const blogTheme = getThemeConfig({
         content: '文章首/文尾有群二维码',
         style: 'padding-top:0'
       },
-      {
-        type: 'button',
-        content: '作者博客',
-        link: 'https://sugarat.top'
-      },
-      {
-        type: 'button',
-        content: '加群交流',
-        props: {
-          type: 'success'
-        },
-        link: 'https://theme.sugarat.top/group.html',
-      }
+      // {
+      //   type: 'button',
+      //   content: '作者博客',
+      //   link: 'https://sugarat.top'
+      // },
+      // {
+      //   type: 'button',
+      //   content: '加群交流',
+      //   props: {
+      //     type: 'success'
+      //   },
+      //   link: 'https://theme.sugarat.top/group.html',
+      // }
     ],
     duration: 0
   },
